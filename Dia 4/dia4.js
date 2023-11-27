@@ -1,12 +1,12 @@
-let fome = prompt("Você está com fome?(s/n")
-let dinheiro = prompt("Você tem dinheiro para comer?(s/n)")
-let restaurante = prompt("O restaurante está aberto?(s/n)")
+let comFome = prompt("Você está com fome?(s/n")
+let temDinheiro = prompt("Você tem dinheiro para comer?(s/n)")
+let restauranteAberto = prompt("O restaurante está aberto?(s/n)")
 
-if(fome === "n" || dinheiro === "n"){
+if(comFome === "n" || temDinheiro === "n"){
     console.log("Hoje a janta será em casa")
-}else if(fome === "s" && dinheiro === "s" && restaurante === "n"){
+}else if(comFome === "s" && temDinheiro === "s" && restauranteAberto === "n"){
     console.log("Peça um delivery")
-}else{(fome === "s" && dinheiro === "s" && restaurante === "s")
+}else{(comFome === "s" && temDinheiro === "s" && restauranteAberto === "s")
     console.log("Hoje o jantar será no seu restaurante preferido!")
 }
 
