@@ -1,7 +1,9 @@
+//CRIANDO VARIAVEIS
 let comFome = prompt("Você está com fome?(s/n")
 let temDinheiro = prompt("Você tem dinheiro para comer?(s/n)")
 let restauranteAberto = prompt("O restaurante está aberto?(s/n)")
 
+//CRIANDO CÓDIGO
 if(comFome === "n" || temDinheiro === "n"){
     console.log("Hoje a janta será em casa")
 }else if(comFome === "s" && temDinheiro === "s" && restauranteAberto === "n"){
