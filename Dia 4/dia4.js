@@ -10,7 +10,7 @@ if(fome === "n" || dinheiro === "n"){
     console.log("Hoje o jantar será no seu restaurante preferido!")
 }
 
-//=========== PRIMEIRO EXERCÍCIO ==============
+//=========== ONDE COMER ==============
 let fome = prompt("Você está com fome?(s/n")
  let dinheiro = prompt("Você tem dinheiro para comer?(s/n)")
  let restaurante = prompt("O restaurante está aberto?(s/n)")
@@ -24,7 +24,7 @@ let fome = prompt("Você está com fome?(s/n")
  }
 
 
-// ============ SEGUNDO EXERCÍCIO ============
+// ============ VERIFICANDO SE PODE DIRIGIR ============
 
 let nome = prompt("Insira o seu nome")
 let idade = prompt("Insira sua idade")
